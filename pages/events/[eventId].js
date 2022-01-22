@@ -7,7 +7,6 @@ import ErrorAlert from "../../components/ui/error-alert";
 
 function EventDetailPage(props) {
     const event = props.selectedEvent;
-    console.log(event);
 
     if (!event) {
         return (
